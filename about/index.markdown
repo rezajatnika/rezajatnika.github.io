@@ -11,3 +11,14 @@ I work at local startup [company](http://rakarsa.com) as a developer and co-foun
 ## About this website
 This website created using [Jekyll](http://jekyllrb.com) and based on this
 [theme](https://github.com/redwallhp/solar-theme-jekyll) with some modification.
+Take a look [here](https://github.com/rezajatnika/rezajatnika.github.io) to see what
+lies inside.
+
+## Open Source Projects
+These are my open source projects, some of them are still work in progress.
+
+- [GoBlog](https://github.com/rezajatnika/blog), blogging using markdown syntax when posting.
+- [Rails Template](https://github.com/rezajatnika/rails_template), Rails 4 template with some basic scss.
+- [Greyjoy](https://github.com/rezajatnika/greyjoy), an Octopress theme.
+- [Jekyll Boiler](https://github.com/rezajatnika/jekyll-boiler), a base template for Jekyll with HTML5 Boilerplate.
+
