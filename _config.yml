@@ -1,0 +1,10 @@
+name: Reza Jatnika
+title: Reza Jatnika's personal website
+url: http://reza.re
+description: ruby sandwich.rb
+markdown: redcarpet
+
+permalink: /blog/:year/:month/:day/:title/
+paginate: 5
+pygments: true
+timezone: Asia/Jakarta
