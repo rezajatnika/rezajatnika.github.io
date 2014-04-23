@@ -6,4 +6,4 @@ markdown: rdiscount
 permalink: /blog/:year/:month/:day/:title/
 paginate: 5
 pygments: true
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'jekyll.thor', 'Procfile']
+exclude: ['README.md', 'Rakefile', 'jekyll.thor', 'Procfile']
