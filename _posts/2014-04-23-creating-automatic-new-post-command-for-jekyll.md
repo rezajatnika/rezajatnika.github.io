@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Jekyll Post From Command Line"
-date: 2014-04-23 00:29:37
+date: 2014-04-23
 tags: jekyll
 ---
 

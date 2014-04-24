@@ -7,12 +7,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  letter-spacing: 0.4px;
 }
 
 html {
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
   border-top: solid 5px #2aa198;
 }
 
@@ -46,9 +44,12 @@ table {
 /*** Basics ***/
 
 body {
-	font-family: Verdana, serif;
-	font-size: 18px;
+	font-family: Lora, Verdana, serif;
+	font-size: 17px;
+  font-weight: normal;
+  font-style: normal;
 	line-height: 1.5;
+  letter-spacing: 0.8px;
 }
 
 a, a:active, a:visited {
@@ -63,6 +64,7 @@ a:hover {
 }
 
 p {
+  font-size: 1em;
   margin-bottom: 15px;
 }
 

@@ -10,9 +10,14 @@ I work at local startup [company](http://rakarsa.com) as a developer and co-foun
 
 ## About this website
 This website created using [Jekyll](http://jekyllrb.com) and based on this
-[theme](https://github.com/redwallhp/solar-theme-jekyll) with some modification.
-Take a look [here](https://github.com/rezajatnika/rezajatnika.github.io) to see what
-lies inside.
+[theme](https://github.com/redwallhp/solar-theme-jekyll) with some modification,
+heavily on typography for better reading. Take a look
+[here](https://github.com/rezajatnika/rezajatnika.github.io) to see what lies inside.
+
+Fonts I use for this website:
+
+- [Meslo](https://github.com/andreberg/Meslo-Font), great font for monospace type.
+- [Lora](https://www.google.com/fonts/specimen/Lora), very readable serif font.
 
 ## Open Source Projects
 These are my open source projects, some of them are still work in progress.
