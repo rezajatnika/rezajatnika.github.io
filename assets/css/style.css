@@ -381,5 +381,6 @@ img.center {
 }
 
 .comments {
-  width: 500px;
+  margin: 0 auto;
+  width: 650px;
 }
