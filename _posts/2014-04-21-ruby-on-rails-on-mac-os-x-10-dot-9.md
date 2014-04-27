@@ -58,7 +58,7 @@ chruby ruby-2.1.1
 
 For skip installing gems doc.
 
-    echo 'gem: --no-document' >> ~/.gemrc
+    $ echo 'gem: --no-document' >> ~/.gemrc
 
 # Rails Gem
 Installing Rails is very simple after we've install Ruby.

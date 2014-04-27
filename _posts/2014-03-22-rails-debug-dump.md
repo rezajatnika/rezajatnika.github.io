@@ -16,9 +16,7 @@ edit `application.html.erb`. Add this lines inside the `<body>` tag.
 </body>
 {% endhighlight %}
 
-<!-- more -->
-
-To make things look nicer add some SCSS.
+To make things look nicer add some styling.
 
 {% highlight scss %}
 @mixin box_sizing {

@@ -53,4 +53,4 @@ Specify which editor to open the files:
 
     $ thor jekyll:new The Post Title Without Apostrophes --editor=vim
 
-The default editor is on line 4 if you want to change it.
+The default editor is on line 3 if you want to change it.

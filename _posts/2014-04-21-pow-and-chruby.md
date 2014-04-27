@@ -31,3 +31,14 @@ chruby ruby-2.1.1
 {% endhighlight %}
 
 Now, you can access your app in your browser at [`http://myapp.dev`](#).
+
+# Powify and Anvil
+To make everything simple, install `powify` gem.
+
+    $ gem install powify
+
+Create symlink of your app by running this command from current app directory.
+
+    $ powify create app_name
+
+Or install [Anvil](http://anvilformac.com), it's similar to `powify`, but it's on your menu bar.
