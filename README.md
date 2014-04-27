@@ -5,7 +5,7 @@ My website source code, powered by [Jekyll](http://jekylrb.com) and hosted on
 ## Layout and Theme
 Layout and theme based on
 [Solar Theme for Jekyll](https://github.com/redwallhp/solar-theme-jekyll), with
-some modification on layout and typgraphy.
+some modification on layout and typography.
 
 Fonts:
 
