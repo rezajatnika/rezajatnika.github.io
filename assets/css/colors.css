@@ -46,9 +46,9 @@ blockquote {
 /*** Pygments ***/
 
 .highlight>pre {
-  background-color: #eee8d5;
+  background-color: #fff;
   color: #657b83;
-  border-left: 2px #F4B915 solid;
+  border-left: 2px rgba(51, 51, 51, 0.15) solid;
   border-radius: 0px;
   overflow: auto;
   padding: 6px 10px;

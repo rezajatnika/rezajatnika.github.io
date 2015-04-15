@@ -10,7 +10,7 @@ tags: dokku
 but without the web interface (command line all the way).
 Dokku requires Ubuntu 14.04 with 64 bit architecture.
 
-## Install
+# Install
 
 Installing dokku is very simple, just run the following command:
 
@@ -20,7 +20,7 @@ The script will bootstrap the installation. Add your public key to the server.
 
     server$ cat ~/.ssh/id_rsa.pub | ssh root@123.456.789.012 "sudo sshcommand acl-add dokku my-computer"
 
-## Domain Setup
+# Domain Setup
 
 Point your domain and a wildcard domain to dokku IP address with alias record.
 
@@ -31,7 +31,7 @@ apps.example.com.   300	  IN	A  123.456.789.012
 
 After deployed your app will be accessible in `appname.apps.example.com`.
 
-## PostgreSQL Plugin
+# PostgreSQL Plugin
 
 To enabling database support in dokku, we must install database plugin. There are several
 postgresql plugin for dokku, but most of them are obsolete. So I fork from one of them, and rebuild
@@ -47,7 +47,7 @@ After installing this plugin, we can create postgresql container.
     # From local machine
     $ ssh -t dokku@app.example.com postgresql:create appname
 
-## Deploying Rails Application
+# Deploying Rails Application
 
 On your Rails app directory.
 
@@ -59,7 +59,7 @@ On your Rails app directory.
 
 And that's it, your app will deployed after pushing with git.
 
-## ASCII Cinema
+# ASCII Cinema
 
 This is a demo showing example Rails app deployment using dokku.
 

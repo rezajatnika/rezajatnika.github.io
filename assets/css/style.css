@@ -19,7 +19,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
-	line-height: 1.1;
+	line-height: 1;
 }
 
 ol, ul {
@@ -63,8 +63,9 @@ a:hover {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin-bottom: 15px;
+	line-height: 1.7;
 }
 
 ul {
@@ -244,13 +245,14 @@ h3 {
 
 #sidebar a {
 	border: none;
-	font-family: Meslo, serif;
+	font-family: Lato, serif;
 	font-size: 1.1em;
 	padding: 2px 4px;
 }
 
 
 /*** Posts ***/
+
 
 article {
 	margin-bottom: 40px;
@@ -260,6 +262,11 @@ article h1 {
 	font-size: 2em;
 	margin: 25px 0 10px 0;
 }
+
+article h1.title {
+	font-size: 2.5em;
+}
+
 article h1 a {
 	border: none;
 }
@@ -282,7 +289,7 @@ article .meta {
 
 span.meta {
 	padding-top: 6px;
-  font-family: Meslo;
+  font-family: Lato;
 	font-size: 0.85em;
 }
 
@@ -300,6 +307,11 @@ img.center {
 	margin: 0 auto 1em auto;
 }
 
+hr.spacer {
+	color: #333333;
+	opacity: 0.15;
+	margin-top: 35px;
+}
 
 /*** Pagination ***/
 
