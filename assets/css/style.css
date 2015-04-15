@@ -10,7 +10,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 html {
-  text-rendering: optimizeLegibility;
   border-top: solid 5px #333333;
 }
 
@@ -19,7 +18,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 
 ol, ul {
@@ -44,7 +43,7 @@ table {
 /*** Basics ***/
 
 body {
-	font-family: Lato, Verdana, serif;
+	font-family: 'Merriweather', Verdana, serif;
 	font-size: 17px;
   font-weight: normal;
   font-style: normal;
@@ -63,7 +62,7 @@ a:hover {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 15px;
 	line-height: 1.7;
 }
@@ -130,6 +129,7 @@ acronym, abbr {
 }
 
 h1 {
+	font-family: 'Lato', serif;
 	font-size: 2em;
 	margin: 0 0 10px 0;
 }
@@ -222,7 +222,7 @@ h3 {
 	margin: 50px auto 20px auto;
 	padding-top: 10px;
 	font-size: 0.85em;
-	border-top: 1px solid #EFAC15;
+	border-top: 1px solid #333333;
 }
 
 #content {
@@ -245,7 +245,7 @@ h3 {
 
 #sidebar a {
 	border: none;
-	font-family: Lato, serif;
+	font-family: 'Lato', serif;
 	font-size: 1.1em;
 	padding: 2px 4px;
 }
@@ -289,7 +289,7 @@ article .meta {
 
 span.meta {
 	padding-top: 6px;
-  font-family: Lato;
+  font-family: 'Lato';
 	font-size: 0.85em;
 }
 
