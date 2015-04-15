@@ -1,6 +1,6 @@
 name: Reza Jatnika
 title: Reza Jatnika
-url: http://reza.re
+url: https://rezajatnika.github.io/
 markdown: rdiscount
 
 permalink: /blog/:year/:month/:day/:title/
