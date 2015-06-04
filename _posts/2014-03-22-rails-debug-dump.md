@@ -3,7 +3,6 @@ layout: post
 title: "Rails Debug Dump"
 date: 2014-03-22 07:32
 comments: true
-categories: rubyonrails
 ---
 
 For displaying debug dump in Rails on development environment,

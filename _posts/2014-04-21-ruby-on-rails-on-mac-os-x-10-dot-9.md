@@ -2,7 +2,6 @@
 layout: post
 title: "Ruby on Rails on Mac OS X 10.9"
 date: 2014-04-21 07:06:25
-tags: rails
 ---
 
 This is simple guide to setting up [Ruby on Rails](http://rubyonrails.org)

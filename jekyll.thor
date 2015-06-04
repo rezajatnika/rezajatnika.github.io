@@ -2,7 +2,8 @@ require "stringex"
 
 class Jekyll < Thor
   desc "new", "create a new post"
-  method_option :editor, :default => "mate"
+  method_option :editor, :default => "vim"
+
   def new(*title)
     title = title.join(" ")
     date = Time.now.strftime('%Y-%m-%d')
@@ -19,7 +20,6 @@ class Jekyll < Thor
       post.puts "layout: post"
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
       post.puts "date: #{datepost}"
-      post.puts "tags:"
       post.puts "---"
     end
 

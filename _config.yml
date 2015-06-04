@@ -1,9 +1,14 @@
-name: Reza Jatnika
+# Site settings
+name:  Reza Jatnika
+email: rezajatnika@gmail.com
 title: Reza Jatnika
-url: https://rezajatnika.github.io/
-markdown: rdiscount
 
-permalink: /blog/:year/:month/:day/:title/
-paginate: 5
-pygments: true
+twitter_username: rezajatnika
+github_username:  rezajatnika
+
+url: https://rezajatnika.github.io/
+
+baseurl: ""
+highlighter: pygments
+markdown: redcarpet
 exclude: ['README.md', 'Rakefile', 'jekyll.thor']

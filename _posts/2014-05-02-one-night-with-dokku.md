@@ -2,7 +2,6 @@
 layout: post
 title: "One Night with Dokku"
 date: 2014-05-02 19:58:19
-tags: dokku
 ---
 
 [Dokku](https://github.com/progrium/dokku) is Docker powered mini-Heroku. The smallest
@@ -24,10 +23,10 @@ The script will bootstrap the installation. Add your public key to the server.
 
 Point your domain and a wildcard domain to dokku IP address with alias record.
 
-```shell
-apps.example.com.   300	  IN	A  123.456.789.012
-*.apps.example.com. 300	  IN	A  123.456.789.012
-```
+
+    apps.example.com.   300	  IN	A  123.456.789.012
+    *.apps.example.com. 300	  IN	A  123.456.789.012
+
 
 After deployed your app will be accessible in `appname.apps.example.com`.
 

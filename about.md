@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 My name is Reza Jatnika, a web developer and graduate student at School of

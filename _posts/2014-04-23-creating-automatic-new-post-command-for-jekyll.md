@@ -2,7 +2,6 @@
 layout: post
 title: "New Jekyll Post From Command Line"
 date: 2014-04-23
-tags: jekyll
 ---
 
 This is how I create new post for Jekyll using command line with [Thor](https://github.com/erikhuda/thor).

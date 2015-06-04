@@ -2,7 +2,6 @@
 layout: post
 title: "Pow and Chruby"
 date: 2014-04-21 11:50:26
-tags: rails
 ---
 
 [Pow](http://pow.cx) is a zero-config Rack server for Mac OS X. Have it serving your apps
