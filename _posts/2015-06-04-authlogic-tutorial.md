@@ -59,7 +59,61 @@ edit `user.rb`.
 Class User < ActiveRecord::Base
   acts_as_authentic do |c|
     c.crypto_provider = Authlogic::CryptoProviders::BCrypt
-    # If you are going to user SCrypt, change BCrypt to SCrypt
+    # If you are going to use SCrypt, change BCrypt to SCrypt
+    # Other configuration goes here
   end
+end
+```
+
+Configuration block in `acts_as_authentic` is optional, you can just leave it
+without block and get default configuration. This handles validations to. You
+can read more on [authlogic documentation](http://www.rubydoc.info/github/binarylogic/authlogic/Authlogic/ActsAsAuthentic).
+
+## Current User
+
+We are to define the current user method in `ApplicationController`.
+
+```ruby
+# app/controllers/application_controller.rb
+
+...
+
+private
+
+def current_user_session
+  @current_user_session ||= UserSession.find
+  # We will create UserSession class later
+end
+
+def current_user
+  @current_user ||= current_user_session && current_user_session.record
+end
+
+def require_login
+  redirect_to login_path unless current_user
+end
+```
+
+## Session for User Model
+Under `model` folder, create `user_session.rb`.
+
+```ruby
+class UserSession < Authlogic::Session::Base
+  # Authlogic session
+
+  # Login using login or email
+  find_by_login_method :find_by_login_or_email
+end
+```
+
+In user model define `find_by_login_or_email` method.
+
+```ruby
+# app/models/user.rb
+
+...
+
+def self.find_by_login_or_email(login)
+  find_by_login(login) || find_by_email(login)
 end
 ```
