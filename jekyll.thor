@@ -1,13 +1,12 @@
-require "stringex"
+require 'stringex'
 
 class Jekyll < Thor
-  desc "new", "create a new post"
-  method_option :editor, :default => "vim"
+  desc 'new', 'create a new post'
+  method_option :editor, :default => 'vim'
 
   def new(*title)
-    title = title.join(" ")
+    title = title.join(' ')
     date = Time.now.strftime('%Y-%m-%d')
-    datepost = Time.now.strftime('%Y-%m-%d %T')
     filename = "_posts/#{date}-#{title.to_url}.md"
 
     if File.exist?(filename)
@@ -16,11 +15,11 @@ class Jekyll < Thor
 
     puts "Creating new post: #{filename}"
     open(filename, 'w') do |post|
-      post.puts "---"
-      post.puts "layout: post"
+      post.puts '---'
+      post.puts 'layout: post'
       post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-      post.puts "date: #{datepost}"
-      post.puts "---"
+      post.puts "date: #{date}"
+      post.puts '---'
     end
 
     system(options[:editor], filename)
