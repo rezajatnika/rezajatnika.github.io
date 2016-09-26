@@ -11,6 +11,3 @@ Fonts:
 
 - [Meslo](https://github.com/andreberg/Meslo-Font), great font for monospace type.
 - [Lora](https://www.google.com/fonts/specimen/Lora), very readable serif font.
-
-## License
-GPLv2 for theme and public domain for posts content.
