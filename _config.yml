@@ -1,14 +1,14 @@
 # Site settings
 name:  Reza Jatnika
 email: rezajatnika@gmail.com
-title: Reza Jatnika
+title: My Notes
 
 twitter_username: rezajatnika
-github_username:  rezajatnika
+github_username: rezajatnika
 
 url: https://rezajatnika.github.io/
 
 baseurl: ''
 highlighter: pygments
 markdown: redcarpet
-exclude: ['README.md', 'Rakefile', 'jekyll.thor']
+exclude: ['README.md', 'Rakefile', 'jekyll.thor', 'Gemfile', 'Gemfile.lock']

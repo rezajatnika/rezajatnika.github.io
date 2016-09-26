@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -19,7 +18,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $grey-color;
     }
 }
 
@@ -32,7 +31,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: $grey-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
